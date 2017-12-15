@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Reset css file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--External css file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--JQuery Linik-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<meta charset="utf-8">
+	<title>Crystal Collectors</title>
+</head>
+
+
+<body>
+	<div class="container">
+		<h1>Crystal Collectors</h1>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<div class="container">
+		<h1>Game Status</h1>
+		<div>
+			<h2>Wins: <span class="win_counter"></span></h2>
+			<h2>Losses: <span class="loss_counter"></span></h2>
+		</div>
+	</div>
+	<br>
+
+	<div class="container">
+		<h1>Player Status</h1>
+		<div>
+			<h2>Point Goal: <span id="criticalScore"></span></h2>
+			<h2>Current Points: <span id="userScore"></span></h2>
+		</div>
+	</div>
+	<br>
+
+	<div>
+		<h2><p>Select a crystal to gain points!"</p></h2>
+		<div>
+			
+		</div>
+	</div>
+	<br>
+
+	<div>
+		<img src="assets/images/blueCrystal.jpeg" alt="blue crystal" id="blueBtn">;
+		<img src="assets/images/greenCrystal.jpeg" alt="green crystal" id="greenBtn">;
+		<img src="assets/images/pinkCrystal.jpeg" alt="pink crystal" id="pinkBtn">;
+		<img src="assets/images/redCrystal.jpeg" alt="red crystal" id="redValue">;
+	</div>
+
+
+
+
+
+<!--External javascript file-->
+<script src="assets/javascript.js"></script>
+</body>
+</html>

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--Reset css file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<!--External css file-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--Bootstrap Link-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<!--JQuery Linik-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -40,25 +38,34 @@
 	<br>
 
 	<div>
-		<h2><p>Select a crystal to gain points!"</p></h2>
-		<div>
-			
-		</div>
+		<h2><p>Select a crystal to gain points, but do not exceed the point goal.</p></h2>
 	</div>
 	<br>
 
-	<div>
-		<img src="assets/images/blueCrystal.jpeg" alt="blue crystal" id="blueBtn">;
-		<img src="assets/images/greenCrystal.jpeg" alt="green crystal" id="greenBtn">;
-		<img src="assets/images/pinkCrystal.jpeg" alt="pink crystal" id="pinkBtn">;
-		<img src="assets/images/redCrystal.jpeg" alt="red crystal" id="redValue">;
+<!-- Crystal Buttons -->
+	<div class="card-group">
+		<!-- Blue Crystal Button -->
+		<div class="card">
+    	<img class="card-img-top" src="./assets/images/blueCrystal.jpg" alt="blue crystal" id="blueBtn">
+    	</div>
+		
+		<!-- Green Crystal Button -->
+		<div class="card">
+    	<img class="card-img-top" src="./assets/images/greenCrystal.jpg" alt="green crystal" id="greenBtn">
+    	</div>
+
+    	<!-- Pink Crystal Button -->
+		<div class="card">
+    	<img class="card-img-top" src="./assets/images/pinkCrystal.jpg" alt="pink crystal" id="pinkBtn">
+    	</div>
+
+    	<!-- Red Crystal Button -->
+		<div class="card">
+    	<img class="card-img-top" src="./assets/images/redCrystal.jpg" alt="red crystal" id="redValue">
+    	</div>
 	</div>
 
-
-
-
-
 <!--External javascript file-->
-<script src="assets/javascript.js"></script>
+<script src="./assets/javascript.js"></script>
 </body>
 </html>
